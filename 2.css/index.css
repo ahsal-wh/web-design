@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(164, 188, 224);
+    /* background-image: url('img/webhozz.jpg');
+    background-repeat: no-repeat;
+    background-position: center bottom; */
+    /* margin-left: 50px; */
+    /* text-align: center; */
+}
+
+h1 {
+    padding-left: 30px;
+    text-align: center;
+}
+
+h2 {
+    text-align: left;
+}
+
+.paragraf {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.link {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.link-img {
+    border: 1px solid red;
+    border-radius: 25%;
+    /* margin-left: 50px; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    filter: grayscale(100%);
+}
