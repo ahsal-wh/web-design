@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <style>
+        body {
+            background-color: grey;
+        }
+
+        .header {
+            color: #bb2d17;
+            font-size: 20px;
+        }
+
+        h2 {
+            color: #705d5a;
+            font-size: large;
+        }
+
+        #headline {
+            color: #705d5a;
+            font-size: large;
+        }
+    </style> -->
+</head>
+
+<body>
+    <h2 class="header">HTML Form</h2>
+    <h2>Ini adalah form input data</h2>
+    <p id="headline">Mohon untuk isi semua datanya</p>
+    <!-- action dan method dipakai untuk mengarahkan ke backend nya -->
+    <form action="/url.com" method="post">
+        <label for="">Nama</label> <br>
+        <input type="text"> <br>
+        <label for="">No Hp</label> <br>
+        <input type="number" name="hp"> <br>
+        <label for="">Jenis kelamin</label> <br>
+        <input type="radio" value="Laki-laki" id="man" name="jk"> <label for="man">Laki-laki</label>
+        <input type="radio" value="Perempuan" id="woman" name="jk"> <label for="woman">Perempuan</label> <br>
+        <label for="">Email</label> <br>
+        <input type="email"> <br>
+        <label for="">Password</label> <br>
+        <input type="password"> <br>
+        <label for="">Alamat</label> <br>
+        <textarea name="" id="" cols="30" rows="10"></textarea><br>
+        <label for="">Hobi</label> <br>
+        <input type="checkbox" value="Badminton" id="badminton"> Badminton
+        <input type="checkbox" value="Sepakbola" id="sepakbola"> Sepakbola
+        <input type="checkbox" value="Main gitar" id="gitar"> Main gitar
+        <input type="checkbox" value="Ngoding" id="ngoding"> Ngoding<br> <br>
+        <input type="button" value="Kirim"> <br> <br>
+        <button>Kirim</button>
+    </form>
+</body>
+
+</html>
