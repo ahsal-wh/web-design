@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Combo&family=Poppins:wght@300&display=swap');
+
+body {
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    overflow: hidden;
+    top: 0;
+    position: fixed;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: aliceblue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Combo', cursive;
+}
+
+li a img {
+    width: 30px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+li a:hover {
+    color: yellow;
+    cursor: grab;
+}
+
+p {
+    margin-top: 450px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.over-text {
+    /* position: relative; */
+    text-align: center;
+    color: white;
+}
+
+.over-text img {
+    width: 100%;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 80px;
+    font-family: 'Combo', cursive;
+}
+
+/* list-career {
+    padding: 14px 16px;
+    color: antiquewhite;
+    text-align: center;
+} */
