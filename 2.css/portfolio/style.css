@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.nav {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+    position: fixed;
+}
+
+.nav li {
+    float: left;
+}
+
+.nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav li a:hover {
+    color: yellow;
+}
+
+.hero {
+    padding-top: 50px;
+    text-align: center;
+    height: 100px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 300px;
+    margin-top: 10px;
+}
+
+.hero img {
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+}
+
+.about {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-top: 30px;
+}
+
+.about-img img {
+    width: 400px;
+    height: auto;
+    border-radius: 20px;
+    margin-right: 50px;
+}
+
+.about-img img:hover {
+    transform: rotate(6deg);
+}
+
+.about-text {
+    width: 550px;
+    padding-bottom: 40px;
+}
+
+button {
+    background-color: dodgerblue;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+    padding: 13px 30px;
+    border: 2px solid transparent;
+}
+
+button:hover {
+    background-color: transparent;
+    border: 2px solid dodgerblue;
+    color: black;
+}
+
+.skill {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.title h1 {
+    align-items: center;
+}
+
+.box {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.box ul li {
+    padding: 10px;
+    margin-left: -20px;
+}
+
+.box ul li:hover {
+    background: white;
+}
+
+.card {
+    height: 300px;
+    width: 350px;
+    padding: 19px 35px;
+    background: grey;
+    border-radius: 20px;
+    margin: 15px;
+}
+
+.card:hover {
+    background: #264653;
+}
+
+.card li {
+    list-style-type: none;
+}
+
+.card p {
+    font-size: 25px;
+    font-style: bold;
+}
+
+.contact {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.contact-address {
+    margin-right: 30px;
+}
+
+footer {
+    margin-top: 30px;
+    width: 100%;
+    height: 200px;
+    background: grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer h1 {
+    font-size: 30px;
+    padding-bottom: -20px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
