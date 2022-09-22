@@ -81,6 +81,13 @@ h1 {
     padding-bottom: 40px;
 }
 
+@media screen and (max-width: 600px) {
+    .about {
+        grid-template-columns: auto;
+        margin-left: 230px;
+    }
+}
+
 button {
     background-color: dodgerblue;
     color: white;

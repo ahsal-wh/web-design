@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- <button id="show">Show</button> -->
+    <!-- <button id="hide" style="display: none;">Hide</button> -->
+    <img class="image" onmouseleave="hiddens()" src="img/me.png" width="50px" height="50px" style="display: none;"
+        alt="">
+
+    <p style="margin-top:10px">Hallo Webhozzter</p>
+    <button id="press">Press</button>
+
+
+    <button id="alert" onclick="warning()">Alert</button>
+    <!-- <script src="jquery-min.js"></script> -->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script>
+        $("#show").click(function () {
+            $("#show").hide()
+            $(".image").show()
+        })
+
+        function hiddens() {
+            $("#show").show()
+            $(".image").hide()
+        }
+
+        // $(document).ready(function () {
+        //     $("#press").click(function () {
+        //         $("p").toggle();
+        //     })
+        // })
+
+        $(document).ready(function () {
+            $("#press").css("background-color");
+        })
+
+        function warning() {
+            Swal.fire(
+                'Are You Sure?',
+                'Your data my be lost',
+                'warning'
+            )
+        }
+    </script>
+
+    <!-- <script src="https://code.jquery.com/jquery-3.6.1.slim.js"
+        integrity="sha256-tXm+sa1uzsbFnbXt8GJqsgi2Tw+m4BLGDof6eUPjbtk=" crossorigin="anonymous"></script> -->
+</body>
+
+</html>
