@@ -1,0 +1,13 @@
+body {
+    background-color: aquamarine;
+}
+
+#press {
+    background-color: rgb(189, 48, 135);
+    color: aliceblue;
+    border-radius: 20px;
+}
+
+.container {
+    background-image: url("/3.js/img/me.png");
+}

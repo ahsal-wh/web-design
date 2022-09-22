@@ -6,20 +6,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
+    <div class="container">
+        <img class="image" onmouseleave="hiddens()" src="img/me.png" width="50px" height="50px" style="display: none;"
+            alt="">
+
+        <p style="margin-top:10px">Hallo Webhozzter</p>
+        <button id="press">Press</button>
+
+
+        <button id="alert" onclick="warning()">Alert</button>
+    </div>
     <!-- <button id="show">Show</button> -->
     <!-- <button id="hide" style="display: none;">Hide</button> -->
-    <img class="image" onmouseleave="hiddens()" src="img/me.png" width="50px" height="50px" style="display: none;"
-        alt="">
 
-    <p style="margin-top:10px">Hallo Webhozzter</p>
-    <button id="press">Press</button>
-
-
-    <button id="alert" onclick="warning()">Alert</button>
     <!-- <script src="jquery-min.js"></script> -->
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script>
